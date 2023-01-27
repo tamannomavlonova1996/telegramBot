@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	os.Setenv("TELEGRAM_APITOKEN", "5683055471:AAGnb84gbrwXCDoSviFtXqv1_S5zbolmF3o")
 	bot, err := tgbotapi.NewBotAPI(os.Getenv("TELEGRAM_APITOKEN"))
 	if err != nil {
 		panic(err)
